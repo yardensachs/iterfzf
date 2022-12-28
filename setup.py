@@ -309,7 +309,7 @@ setup(
     license='GPLv3 or later',
     packages=['iterfzf'],
     package_data={'iterfzf': ['py.typed']},
-    cmdclass={'bundle_fzf': bundle_fzf},
+    #cmdclass={'bundle_fzf': bundle_fzf},
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
     install_requires=['setuptools'],
     zip_safe=False,
